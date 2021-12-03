@@ -1,0 +1,4 @@
+SELECT REVERSE('ABCDE'); --EDCBA
+
+
+
