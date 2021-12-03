@@ -15,7 +15,7 @@ CREATE TABLE cats2 (
     age INT DEFAULT 99
 );
 
-CREATE TABLE unique_cats2 (
+CREATE TABLE unique_cats (
     cat_id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(100),
     age INT,
