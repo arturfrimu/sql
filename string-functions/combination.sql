@@ -9,3 +9,5 @@ SELECT CONCAT('The book title has length ', CHAR_LENGTH(title), ' characters') F
 SELECT CONCAT('MY FAVORITE BOOK IS ', UPPER(title)) FROM books;
  
 SELECT CONCAT('MY FAVORITE BOOK IS ', LOWER(title)) FROM books;
+
+SELECT * FROM books ORDER BY released_year LIMIT 3;
